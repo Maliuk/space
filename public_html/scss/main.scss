@@ -1,5 +1,63 @@
 @import "_vars.scss";
+@import "_mixin.scss";
 
 body {
-    //background-color: $main-background;
+    font-family: $font-family;
+    color: $font-color;
+}
+
+h1.main-title {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: $blue;
+    font-weight: bold;
+    line-height: 1;
+
+    span {
+        color: #fff;
+        font-weight: normal;
+    }
+}
+
+a {
+    @include transition(0.3s, ease-in);
+}
+
+
+/*=======================================================
+HEADER
+=======================================================*/
+header {
+    height: 60px;
+    background-color: $dark-blue;
+}
+
+.navbar-default {
+    @media (min-width: 768px) {
+        border-color: transparent;
+        background-color: transparent;
+    }
+
+    a {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 300;
+
+        &:hover {
+            color: $blue;
+        }
+
+        &.navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+/*=======================================================
+CLASSES
+=======================================================*/
+.blue {
+    color: $blue;
 }

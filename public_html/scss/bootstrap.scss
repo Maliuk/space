@@ -1,2 +1,18 @@
-@import "_bootstrap-variables.scss";
+//@import "_bootstrap-variables.scss";
+@import "_vars.scss";
+
+$body-bg: #323337;
+$text-color: $font-color;
+
+$navbar-height: 60px;
+$navbar-default-bg: transparent;
+$navbar-default-color: #dadada;
+$navbar-default-link-color: $navbar-default-color;
+$navbar-default-link-hover-color: $blue;
+$navbar-default-link-active-color: $navbar-default-link-hover-color;
+$navbar-default-link-active-bg: transparent;
+
+$navbar-default-brand-color: #fff;
+$navbar-default-brand-hover-color: $navbar-default-brand-color;
+
 @import "bootstrap-sass-3.3.2/assets/stylesheets/bootstrap.scss";
