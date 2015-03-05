@@ -1,8 +1,11 @@
 //@import "_bootstrap-variables.scss";
 @import "_vars.scss";
 
+$grid-float-breakpoint: 992px;
+
 $body-bg: #323337;
 $text-color: $font-color;
+$line-height-base: 1.65;
 
 $navbar-height: 60px;
 $navbar-default-bg: transparent;
